@@ -7,22 +7,29 @@ Para instalar el firewall se considera los requerimientos mínimos del sistema d
 Se descarga desde la página oficial :
 https://www.pfsense.org/ 
 Al momento de virtualizar se sigue los siguientes pasos:
+
 ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/72722099-5493-46e2-9621-d76ea68a2711)
+
 Figura 1 Localización de almacenamiento del Firewall
 
-
  ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/24b6690c-97a8-4c99-82b6-a3a29f3689ed)
+
 
 Figura 2 Configuración LAN de tarjetas de red
  
 
 Aceptación de términos de y condiciones (ver Figura 3)
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/66a69458-3431-4efb-b73f-509a940fcdc4)
-Figura 103 Términos y condiciones a aceptar para instalar pfsense
 
- 
-Se da click en install (ver Figura 104)
-Figura 104 ventana de instalación de pfsense
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/66a69458-3431-4efb-b73f-509a940fcdc4)
+
+Figura 3 Términos y condiciones a aceptar para instalar pfsense
+
+
+Se da click en install (ver Figura 4)
+
+ ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/b4aa41f3-f711-40a9-ba43-ceeda9d63115)
+
+Figura 4 ventana de instalación de pfsense
  
 Se da una partición de manera automática ZFS (ver Figura 105)
 Figura 105 Selección de tipo de partición de disco
