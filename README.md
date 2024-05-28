@@ -17,44 +17,43 @@ Al momento de virtualizar se sigue los siguientes pasos:
 
 Figura 1 Localización de almacenamiento del Firewall
 
- ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/24b6690c-97a8-4c99-82b6-a3a29f3689ed)
-
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/66a69458-3431-4efb-b73f-509a940fcdc4)
 
 Figura 2 Configuración LAN de tarjetas de red
  
 Aceptación de términos de y condiciones (ver Figura 3)
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/66a69458-3431-4efb-b73f-509a940fcdc4)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/b4aa41f3-f711-40a9-ba43-ceeda9d63115)
 
 Figura 3 Términos y condiciones a aceptar para instalar pfsense
 
 Se da click en install (ver Figura 4)
 
- ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/b4aa41f3-f711-40a9-ba43-ceeda9d63115)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/ff998ebb-5995-4209-ad02-f3c6eb10bd7f)
 
 Figura 4 ventana de instalación de pfsense
  
 Se da una partición de manera automática ZFS (ver Figura 5)
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/b0091a83-5ed3-4cfc-a525-64fdabcb96fc)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/c90a66e4-884d-455b-8667-ae85bd6d9ba8)
 
 Figura 5 Selección de tipo de partición de disco
 
  Confirmación de escritura de partición de disco (ver Figura 6)
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/677f80f8-2bc0-4e1b-b6e7-f1e6dfff831d)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/ff34bea4-e3ac-449e-8a92-3d2b94b5e4fa)
 
 Figura 6 Ventana de aceptación para partición de disco
  
 Reinicio de servicios tras la instalación de pfsense
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/323d66c6-3dbc-4f67-a444-216ecc793a68)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/54cd48a5-2319-424d-b190-a9a4ecc6167f)
 
 Figura 7 Ventana de instalación finalizada con éxito
  
 En la Figura 8 se observa la pantalla inicial del menú de configuración del firewall pfsense y se observa las IP de accesos de red WAN y LAN 
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/e36ef19d-613f-4e16-ad59-9e2f0d68ebe5)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/7ffdf421-2ce2-429f-9886-7c07361ebf8b)
 
 Figura 8 Menú de pfsense
 
@@ -67,13 +66,13 @@ Contraseña: pfsense
 
 Después del primer acceso se cambian inmediatamente las credenciales 
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/be5d1ea7-0185-4b59-8b5f-53df1cda4ec1)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/c9dca292-c9e0-41ec-bd11-8df60486af38)
 
 Figura 9 ventana de inicio por https y red LAN
 
 Ventana de bienvenida y cambio de contraseña por primera vez de usuario admin en la Figura 10
 
-![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/afe6b289-e504-4a8e-bd30-e19dee512628)
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/be17df1f-8acb-478a-9337-77452b16e8a7)
 
 Figura 10 Cambio de contraseña de usuario admin
  
