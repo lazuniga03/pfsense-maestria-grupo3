@@ -2,10 +2,15 @@
 
 # pfsense-maestria-grupo3
 proceso de dimensionamiento de características para la maquina virtual, instalación y configuración de políticas
+
 Descripción General:
+
 Para instalar el firewall se considera los requerimientos mínimos del sistema de 8Gb de almacenamiento, 1Gb min de RAM y 2 tarjetas de red (para WAN y LAN) (ver Figura 1 y 2)
+
 Se descarga desde la página oficial :
+
 https://www.pfsense.org/ 
+
 Al momento de virtualizar se sigue los siguientes pasos:
 
 ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/72722099-5493-46e2-9621-d76ea68a2711)
@@ -55,7 +60,9 @@ Figura 8 Menú de pfsense
 
  
 Pantalla de acceso WEB en la Figura 9 desde la red LAN por la Gateway 192.168.1.1 con las credenciales por default
+
 Usuario: admin
+
 Contraseña: pfsense
 
 Después del primer acceso se cambian inmediatamente las credenciales 
@@ -64,11 +71,9 @@ Después del primer acceso se cambian inmediatamente las credenciales
 
 Figura 9 ventana de inicio por https y red LAN
 
- 
-
-Ventana de bienvenida y cambio de contraseña por primera vez de usuario admin en la Figura 110
+Ventana de bienvenida y cambio de contraseña por primera vez de usuario admin en la Figura 10
 
 ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/afe6b289-e504-4a8e-bd30-e19dee512628)
 
-Figura 110 Cambio de contraseña de usuario admin
+Figura 10 Cambio de contraseña de usuario admin
  
