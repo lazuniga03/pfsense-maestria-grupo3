@@ -75,4 +75,62 @@ Ventana de bienvenida y cambio de contraseña por primera vez de usuario admin e
 ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/be17df1f-8acb-478a-9337-77452b16e8a7)
 
 Figura 10 Cambio de contraseña de usuario admin
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/94ab3be0-1e7e-48cf-81ba-efc3d7f2602f)
+
+Figura 11 Nombre y dominio del firewall pfsense
  
+Configuración de red LAN (Gateway) en la Figura 12
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/54fe1b72-c783-4504-bc90-fb143a85a1e3)
+
+Figura 12 red LAN configurada en el wizard
+ 
+En la Figura 13 se observa la configuración de Wizard de configuración rápida del Firewall
+
+Figura 13 Configuración exitosa de wizard 
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/a70d81de-2d94-40ef-8393-53cca277d800)
+
+Verificación de actualizaciones del firewall (ver Figura 14)
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/384ae512-d5bc-48f4-9272-717205d97b7e)
+
+Figura 14 Ventana de actualización del firewall pfsense
+ 
+Por seguridad se habilita solo ese acceso por https y por un puerto distinto al 443 (https) en este caso 448 como se observa en la Figura 15
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/092fd36e-0a77-4bc6-9fbd-94175cf25afc)
+
+Figura 15 Desactivación de acceso http y cambio de puerto
+ 
+Por tema de seguridad se recomienda desactivar el usuario admin y configurar un nuevo usuario para acceder, en este caso se crea el usuario “admin” y se recomienda el uso de contraseñas robustas de mínimo 8 caracteres considerando: 
+
+Letras mayúsculas
+
+Letras minúsculas
+
+Números
+
+Caracteres especiales (ver Figura 16)
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/f87503eb-9457-4525-b95e-844a41907efc)
+
+Figura 16 creación de nuevo usuario para acceso al firewall
+
+
+ 
+Desactivación del usuario admin (ver Figura 17)
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/c0d83b5d-9f25-4b6a-8432-797bbc0ab164)
+
+Figura 17 Desactivación del usuario admin
+
+ 
+Estatus de los usuarios habilitados para acceder al firewall (ver Figura 18)
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/a02e4bc6-04dc-4cf3-8ba1-b8899cae5988)
+
+Figura 18 usuarios habilitados y deshabilitados para acceso al firewall
+ 
+
