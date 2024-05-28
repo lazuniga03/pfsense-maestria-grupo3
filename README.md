@@ -134,3 +134,9 @@ Estatus de los usuarios habilitados para acceder al firewall (ver Figura 18)
 Figura 18 usuarios habilitados y deshabilitados para acceso al firewall
  
 
+Se realiza la configuración de 2 tarjetas de red en el Virtualizado de máquinas virtuales la cual son destinadas para WAN Y LAN, se recibe del proveedor de internet (ISP) una IP por DHCP al firewall para la WAN la cual es reservada en el router del ISP, la res LAN será administrada por el firewall de borde (ver Figura 19).
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/0e92f6c0-98b7-4681-bdea-6d46dab343b6)
+
+Figura 19 Configuración de 2 tarjetas de red WAN y LAN en firewall PFSENSE
+
