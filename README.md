@@ -17,13 +17,11 @@ Figura 1 Localización de almacenamiento del Firewall
 
 Figura 2 Configuración LAN de tarjetas de red
  
-
 Aceptación de términos de y condiciones (ver Figura 3)
 
 ![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/66a69458-3431-4efb-b73f-509a940fcdc4)
 
 Figura 3 Términos y condiciones a aceptar para instalar pfsense
-
 
 Se da click en install (ver Figura 4)
 
@@ -31,63 +29,46 @@ Se da click en install (ver Figura 4)
 
 Figura 4 ventana de instalación de pfsense
  
-Se da una partición de manera automática ZFS (ver Figura 105)
-Figura 105 Selección de tipo de partición de disco
+Se da una partición de manera automática ZFS (ver Figura 5)
 
- 
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/b0091a83-5ed3-4cfc-a525-64fdabcb96fc)
 
-Confirmación de escritura de partición de disco (ver Figura 106)
-Figura 106 Ventana de aceptación para partición de disco
+Figura 5 Selección de tipo de partición de disco
+
+ Confirmación de escritura de partición de disco (ver Figura 6)
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/677f80f8-2bc0-4e1b-b6e7-f1e6dfff831d)
+
+Figura 6 Ventana de aceptación para partición de disco
  
 Reinicio de servicios tras la instalación de pfsense
-Figura 107 Ventana de instalación finalizada con éxito
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/323d66c6-3dbc-4f67-a444-216ecc793a68)
+
+Figura 7 Ventana de instalación finalizada con éxito
  
-En la Figura 108 se observa la pantalla inicial del menú de configuración del firewall pfsense y se observa las IP de accesos de red WAN y LAN 
-Figura 108 Menú de pfsense
+En la Figura 8 se observa la pantalla inicial del menú de configuración del firewall pfsense y se observa las IP de accesos de red WAN y LAN 
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/e36ef19d-613f-4e16-ad59-9e2f0d68ebe5)
+
+Figura 8 Menú de pfsense
 
  
-Pantalla de acceso WEB en la Figura 109 desde la red LAN por la Gateway 192.168.1.1 con las credenciales por default
+Pantalla de acceso WEB en la Figura 9 desde la red LAN por la Gateway 192.168.1.1 con las credenciales por default
 Usuario: admin
 Contraseña: pfsense
 
 Después del primer acceso se cambian inmediatamente las credenciales 
-Figura 109 ventana de inicio por https y red LAN
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/be5d1ea7-0185-4b59-8b5f-53df1cda4ec1)
+
+Figura 9 ventana de inicio por https y red LAN
 
  
 
 Ventana de bienvenida y cambio de contraseña por primera vez de usuario admin en la Figura 110
+
+![image](https://github.com/lazuniga03/pfsense-maestria-grupo3/assets/144503813/afe6b289-e504-4a8e-bd30-e19dee512628)
+
 Figura 110 Cambio de contraseña de usuario admin
- 
-Información general del firewall pfsense (ver Figura 111)
-Figura 111 Nombre y dominio del firewall pfsense
- 
-Configuración de red LAN (Gateway) en la Figura 112
-Figura 112 red LAN configurada en el wizard
- 
-En la Figura 113 se observa la configuración de Wizard de configuración rápida del Firewall
-Figura 113 Configuración exitosa de wizard 
-
- 
-
-Verificación de actualizaciones del firewall (ver Figura 114)
-Figura 114 Ventana de actualización del firewall pfsense
- 
-Por seguridad se habilita solo ese acceso por https y por un puerto distinto al 443 (https) en este caso 448 como se observa en la Figura 115
-Figura 115 Desactivación de acceso http y cambio de puerto
- 
-Por tema de seguridad se recomienda desactivar el usuario admin y configurar un nuevo usuario para acceder, en este caso se crea el usuario “admin” y se recomienda el uso de contraseñas robustas de mínimo 8 caracteres considerando: 
-Letras mayúsculas
-Letras minúsculas
-Números
-Caracteres especiales (ver Figura 116)
-Figura 116 creación de nuevo usuario para acceso al firewall
-
-
- 
-Desactivación del usuario admin (ver Figura 117)
-Figura 117 Desactivación del usuario admin
-
- 
-Estatus de los usuarios habilitados para acceder al firewall (ver Figura 118)
-Figura 118 usuarios habilitados y deshabilitados para acceso al firewall
  
